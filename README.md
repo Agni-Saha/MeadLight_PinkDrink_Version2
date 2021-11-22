@@ -1,3 +1,15 @@
+<h1>MeadLIght_PinkDrink_Clone</h1>
+
+This time I decided to clone the #SOTD of Awwwards
+(Meadlight — Principio by Adoratorio (IT) wins #SOTD & #DEVAWARD)</br>
+Link: https://meadlight.com/en
+
+In this project I used <br />
+#react #svg-animations #gsap #scrolltrigger #three-js #react-three-fiber & #react-three-drei <br />
+I also used Blender to create the graphics
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
