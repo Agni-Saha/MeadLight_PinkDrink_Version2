@@ -1,0 +1,75 @@
+.Section3_History_Container {
+    margin-top: 450px;
+    position: relative;
+}
+
+.Section3_History {
+    margin-left: 40%;
+    color: #585863;
+    position: relative;
+    height: 912px;
+}
+
+.articles_S3 {
+    overflow: hidden;
+}
+
+.roseS3 {
+    padding-top: 50px;
+    width: 150px;
+    position: relative;
+    top: -300px;
+    left: 400px;
+}
+
+.Container_01_S3 {
+    margin-top: -350px;
+}
+
+.div__01_S3 {
+    display: flex;
+    font-size: 28px;
+    position: relative;
+    top: 75px;
+    margin-left: 27px;
+}
+
+.pHeader__s3 {
+    margin-top: 40px;
+    font-size: 1.4rem;
+    font-family: 'Merlod Norme Regular';
+}
+
+.pBold__s3 {
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+.pCaption__s3 {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    color: #464652;
+    width: 45%;
+    font-family: 'Merlod Norme Light';
+}
+
+.story_00 {
+    position: absolute;
+    left: 0;
+    top: -310px;
+    width: 322px;
+}
+
+.story_01 {
+    position: relative;
+    left: 615px;
+    top: -215px;
+    width: 307px;
+}
+
+.section3_heading {
+    font-family: 'Merlod Norme SemiBold';
+    font-size: 3.2rem;
+    color: #464652;
+}

@@ -1,0 +1,105 @@
+@import url('./FakeContent.css');
+@import url('./Canvas.css');
+@import url('./SVG_TEST.css');
+@import url('./Section1_Intro.css');
+@import url('./Section2_PinkDrink.css');
+@import url('./Section3_History.css');
+@import url('./Section4_Cocktails.css');
+@import url('./Section5_Contacts.css');
+@import url('./Header.css');
+@import url('./SmoothScrolling.css');
+@import url('./ScrollIndiactor.css');
+
+@font-face {
+    font-family: 'Merlod Norme Light';
+    src: url('../Assets/font/MerlodNorme-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Merlod Norme Thin';
+    src: url('../Assets/font/MerlodNorme-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Merlod Norme Regular';
+    src: url('../Assets/font/MerlodNorme-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Merlod Norme SemiBold';
+    src: url('../Assets/font/MerlodNorme-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Merlod Norme Bold';
+    src: url('../Assets/font/MerlodNorme-Bold.ttf') format('truetype');
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: 'Merlod Norme Regular';
+}
+
+.App {
+    background-image: url('../Assets/images/texture.jpg');
+}
+
+.plus {
+    width: 90px;
+    position: fixed;
+    top: 40px;
+    left: 6%;
+}
+
+.div__spinner {
+    position: fixed;
+    bottom: 40px;
+    right: 80px;
+}
+
+.p_in_spinner {
+    width: 40px;
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+}
+
+::-moz-selection {
+    color: rgb(255, 145, 163);
+    background-color: transparent;
+}
+
+::selection {
+    color: rgb(255, 145, 163);
+    background-color: transparent;
+}
+
+.AppNoise {
+    background-image: url('../Assets/images/noise.png');
+    animation: animate 0.5s steps(6) infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100% 100%;
+
+    }
+}

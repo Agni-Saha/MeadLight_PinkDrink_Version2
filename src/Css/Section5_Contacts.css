@@ -1,0 +1,133 @@
+.Section5_Contacts_Container {
+    margin-top: 0px;
+    position: relative;
+}
+
+.btnHeader1 {
+    pointer-events: none;
+    cursor: default;
+}
+
+.Section5_Contacts {
+    margin-left: 23%;
+    color: #585863;
+    position: relative;
+}
+
+.roseS5 {
+    padding-top: 50px;
+    width: 150px;
+    position: relative;
+    top: +00px;
+    left: -170px;
+}
+
+.pHeader__s5 {
+    margin-top: 40px;
+    font-size: 1.4rem;
+    font-family: 'Merlod Norme Regular';
+}
+
+.pBold__s5 {
+    margin-top: 15px;
+    font-size: 3.2rem;
+    font-family: 'Merlod Norme SemiBold';
+}
+
+.pCaption__s5 {
+    margin-top: 30px;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #464652;
+    width: 45%;
+    font-family: 'Merlod Norme Thin';
+}
+
+.hand_01 {
+    position: absolute;
+    left: 435px;
+    top: 75px;
+    width: 692px;
+}
+
+.Info {
+    height: 191px;
+    margin: 60px 0 0 0;
+    color: #464652;
+}
+
+.name {
+    line-height: 2.5;
+    color: #464652;
+    text-decoration: none;
+    font-family: 'Merlod Norme Regular';
+    font-size: 1.2rem;
+    transition: all 0.2s ease-out;
+}
+
+.email {
+    line-height: 2.5;
+    color: #464652;
+    text-decoration: none;
+    font-family: 'Merlod Norme Regular';
+    font-size: 1.2rem;
+    transition: all 0.2s ease-out;
+}
+
+.pureInfo {
+    background-color: transparent;
+    padding: 20px 20px 20px 0;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    color: #464652;
+    position: absolute;
+    left: -150px;
+    margin-top: -8px;
+    font-size: 1.4rem;
+    font-family: 'Merlod Norme Regular';
+}
+
+.socials {
+    display: flex;
+    color: #464652;
+    justify-content: space-between;
+}
+
+.socials a {
+    margin: 0 16px;
+    cursor: pointer;
+}
+
+.socials img {
+    position: relative;
+    top: 40px;
+    width: 32px;
+}
+
+.defaultInfo {
+    height: 71px;
+    align-items: baseline;
+    font-size: 14px;
+    color: #464652;
+    width: 64%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.altInfo {
+    height: 71px;
+    display: none;
+    font-size: 14px;
+    color: #464652;
+    width: 80%;
+}
+
+.plusInfo {
+    margin-right: 10px;
+}
+
+.name p:hover, .email p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

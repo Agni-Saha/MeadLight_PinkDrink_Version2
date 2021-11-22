@@ -1,0 +1,114 @@
+.Section2_PinkDrink {
+    margin-left: 20%;
+    color: #585863;
+    position: relative;
+}
+
+.rose {
+    padding-top: 50px;
+    width: 150px;
+    position: relative;
+    top: -350px;
+}
+
+.Container_01 {
+    margin-left: 40px;
+    margin-top: -350px;
+}
+
+.div__01 {
+    display: flex;
+    font-size: 28px;
+    position: relative;
+    top: 75px;
+    margin-left: 27px;
+}
+
+.articles {
+    overflow: hidden;
+    margin-left: 40px;
+    height: 444px;
+}
+
+.toRight {
+    position: relative;
+    top: -222px;
+    left: 966px;
+}
+
+.toRight .pCaption__s2 {
+    display: none;
+}
+
+.toRight .linePink_pBold {
+    display: none;
+}
+
+.article1, .article2, .article3 {
+    height: 207px;
+}
+
+.article3 {
+    position: relative;
+    top: -444px;
+}
+
+.buttons__s2 {
+    position: relative;
+    top: -160px;
+    display: flex;
+    width: 280px;
+    margin-left: 40px;
+
+}
+
+.btn__s2 {
+    margin-right: 75px;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}
+
+.pHeader__s2 {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 1.4rem;
+    font-family: 'Merlod Norme Regular';
+}
+
+.pBold__s2 {
+    margin-top: 15px;
+    font-size: 3.2rem;
+    font-family: 'Merlod Norme SemiBold';
+}
+
+.pCaption__s2 {
+    margin-top: 30px;
+    font-size: 1.4rem;
+    color: #91919b;
+    width: 45%;
+    font-family: 'Merlod Norme Light';
+}
+
+.bdiSec2 {
+    position: relative;
+}
+
+.hand00 {
+    position: absolute;
+    left: 48%;
+    top: -20px;
+    width: 384px;
+}
+
+
+.div_pHeader_nextInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nextInfo {
+    font-size: 14px;
+    margin-top: 40px;
+    margin-right: 134px;
+}
